@@ -1,0 +1,779 @@
+`
+### WordPress Environment ###
+
+WordPress address (URL): https://alchemyprinting.com
+Site address (URL): https://alchemyprinting.com
+WC Version: 9.1.4
+Legacy REST API Package Version: ✔ 1.0.4
+Action Scheduler Version: ✔ 3.7.4
+Log Directory Writable: ✔
+WP Version: 6.6.1
+WP Multisite: –
+WP Memory Limit: 5 GB
+WP Debug Mode: –
+WP Cron: –
+Language: en_US
+External object cache: ✔
+
+### Server Environment ###
+
+Server Info: Apache
+PHP Version: 8.3.6
+PHP Post Max Size: 5 GB
+PHP Time Limit: 1000
+PHP Max Input Vars: 1000
+cURL Version: 8.7.1
+OpenSSL/1.1.1w
+
+SUHOSIN Installed: –
+MySQL Version: 5.7.23-23
+Max Upload Size: 5 GB
+Default Timezone is UTC: ✔
+fsockopen/cURL: ✔
+SoapClient: ✔
+DOMDocument: ✔
+GZip: ✔
+Multibyte String: ✔
+Remote Post: ✔
+Remote Get: ✔
+
+### Database ###
+
+WC Database Version: 9.1.4
+WC Database Prefix: 8vd_
+Total Database Size: 341.86MB
+Database Data Size: 242.99MB
+Database Index Size: 98.87MB
+8vd_woocommerce_sessions: Data: 0.07MB + Index: 0.00MB + Engine MyISAM
+8vd_woocommerce_api_keys: Data: 0.00MB + Index: 0.01MB + Engine MyISAM
+8vd_woocommerce_attribute_taxonomies: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+8vd_woocommerce_downloadable_product_permissions: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+8vd_woocommerce_order_items: Data: 0.15MB + Index: 0.06MB + Engine MyISAM
+8vd_woocommerce_order_itemmeta: Data: 0.94MB + Index: 0.74MB + Engine MyISAM
+8vd_woocommerce_tax_rates: Data: 0.00MB + Index: 0.01MB + Engine MyISAM
+8vd_woocommerce_tax_rate_locations: Data: 0.00MB + Index: 0.01MB + Engine MyISAM
+8vd_woocommerce_shipping_zones: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+8vd_woocommerce_shipping_zone_locations: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+8vd_woocommerce_shipping_zone_methods: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+8vd_woocommerce_payment_tokens: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+8vd_woocommerce_payment_tokenmeta: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+8vd_woocommerce_log: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+8vd_actionscheduler_actions: Data: 1.50MB + Index: 1.53MB + Engine InnoDB
+8vd_actionscheduler_claims: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+8vd_actionscheduler_groups: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+8vd_actionscheduler_logs: Data: 0.45MB + Index: 0.33MB + Engine InnoDB
+8vd_berocket_termmeta: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+8vd_commentmeta: Data: 0.02MB + Index: 0.02MB + Engine MyISAM
+8vd_comments: Data: 0.71MB + Index: 0.24MB + Engine MyISAM
+8vd_dokan_announcement: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+8vd_dokan_orders: Data: 0.02MB + Index: 0.03MB + Engine InnoDB
+8vd_dokan_refund: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+8vd_dokan_shipping_zone_locations: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+8vd_dokan_shipping_zone_methods: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+8vd_dokan_vendor_balance: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+8vd_dokan_withdraw: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+8vd_e_events: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+8vd_e_notes: Data: 0.02MB + Index: 0.17MB + Engine InnoDB
+8vd_e_notes_users_relations: Data: 0.02MB + Index: 0.05MB + Engine InnoDB
+8vd_e_submissions: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+8vd_e_submissions_actions_log: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+8vd_e_submissions_values: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+8vd_failed_jobs: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+8vd_gf_addon_feed: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+8vd_gf_draft_submissions: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+8vd_gf_entry: Data: 0.06MB + Index: 0.03MB + Engine InnoDB
+8vd_gf_entry_meta: Data: 0.13MB + Index: 0.09MB + Engine InnoDB
+8vd_gf_entry_notes: Data: 0.05MB + Index: 0.03MB + Engine InnoDB
+8vd_gf_form: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+8vd_gf_form_meta: Data: 0.06MB + Index: 0.00MB + Engine InnoDB
+8vd_gf_form_revisions: Data: 0.02MB + Index: 0.03MB + Engine InnoDB
+8vd_gf_form_view: Data: 0.11MB + Index: 0.11MB + Engine InnoDB
+8vd_gf_rest_api_keys: Data: 0.02MB + Index: 0.03MB + Engine InnoDB
+8vd_jet_post_types: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+8vd_jet_reviews: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+8vd_jet_review_comments: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+8vd_jet_review_guests: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+8vd_jet_review_meta: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+8vd_jet_review_types: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+8vd_jet_search_suggestions: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+8vd_jet_search_suggestions_sessions: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+8vd_jet_taxonomies: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+8vd_layerslider: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+8vd_layerslider_revisions: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+8vd_links: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+8vd_mailchimp_carts: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+8vd_mailchimp_jobs: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+8vd_nextend2_image_storage: Data: 0.01MB + Index: 0.01MB + Engine MyISAM
+8vd_nextend2_section_storage: Data: 0.23MB + Index: 0.01MB + Engine MyISAM
+8vd_nextend2_smartslider3_generators: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+8vd_nextend2_smartslider3_sliders: Data: 0.35MB + Index: 0.00MB + Engine MyISAM
+8vd_nextend2_smartslider3_sliders_xref: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+8vd_nextend2_smartslider3_slides: Data: 0.08MB + Index: 0.01MB + Engine MyISAM
+8vd_nfd_data_event_queue: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+8vd_ninja_table_items: Data: 0.02MB + Index: 0.00MB + Engine MyISAM
+8vd_options: Data: 25.42MB + Index: 0.70MB + Engine MyISAM
+8vd_postmeta: Data: 18.34MB + Index: 5.29MB + Engine MyISAM
+8vd_posts: Data: 4.41MB + Index: 0.90MB + Engine MyISAM
+8vd_queue: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+8vd_redirection_404: Data: 0.02MB + Index: 0.05MB + Engine InnoDB
+8vd_redirection_groups: Data: 0.02MB + Index: 0.03MB + Engine InnoDB
+8vd_redirection_items: Data: 0.02MB + Index: 0.09MB + Engine InnoDB
+8vd_redirection_logs: Data: 0.02MB + Index: 0.05MB + Engine InnoDB
+8vd_revslider_css: Data: 0.09MB + Index: 0.01MB + Engine MyISAM
+8vd_revslider_css_bkp: Data: 0.09MB + Index: 0.00MB + Engine MyISAM
+8vd_revslider_layer_animations: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+8vd_revslider_layer_animations_bkp: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+8vd_revslider_navigations: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+8vd_revslider_navigations_bkp: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+8vd_revslider_sliders: Data: 0.01MB + Index: 0.00MB + Engine MyISAM
+8vd_revslider_sliders_bkp: Data: 0.01MB + Index: 0.00MB + Engine MyISAM
+8vd_revslider_slides: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+8vd_revslider_slides_bkp: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+8vd_revslider_static_slides: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+8vd_revslider_static_slides_bkp: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+8vd_rg_authorizenet: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+8vd_rg_authorizenet_transaction: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+8vd_rg_form: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+8vd_rg_form_meta: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+8vd_rg_form_view: Data: 0.01MB + Index: 0.01MB + Engine MyISAM
+8vd_rg_incomplete_submissions: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+8vd_rg_lead: Data: 0.01MB + Index: 0.00MB + Engine MyISAM
+8vd_rg_lead_detail: Data: 0.03MB + Index: 0.03MB + Engine MyISAM
+8vd_rg_lead_detail_long: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+8vd_rg_lead_meta: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+8vd_rg_lead_notes: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+8vd_swpm_membership_meta_tbl: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+8vd_swpm_membership_tbl: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+8vd_swpm_members_tbl: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+8vd_swpm_payments_tbl: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+8vd_termmeta: Data: 0.07MB + Index: 0.04MB + Engine MyISAM
+8vd_terms: Data: 0.03MB + Index: 0.06MB + Engine MyISAM
+8vd_term_relationships: Data: 0.15MB + Index: 0.30MB + Engine MyISAM
+8vd_term_taxonomy: Data: 0.04MB + Index: 0.04MB + Engine MyISAM
+8vd_tm_taskmeta: Data: 0.02MB + Index: 0.03MB + Engine InnoDB
+8vd_tm_tasks: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+8vd_usermeta: Data: 0.96MB + Index: 0.37MB + Engine MyISAM
+8vd_users: Data: 0.06MB + Index: 0.06MB + Engine MyISAM
+8vd_wcfm_daily_analysis: Data: 7.52MB + Index: 7.52MB + Engine InnoDB
+8vd_wcfm_detailed_analysis: Data: 19.55MB + Index: 0.00MB + Engine InnoDB
+8vd_wcfm_enquiries: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+8vd_wcfm_enquiries_meta: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+8vd_wcfm_enquiries_response: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+8vd_wcfm_enquiries_response_meta: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+8vd_wcfm_fbc_chat_rows: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+8vd_wcfm_fbc_chat_sessions: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+8vd_wcfm_fbc_chat_visitors: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+8vd_wcfm_fbc_offline_messages: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+8vd_wcfm_following_followers: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+8vd_wcfm_marketplace_orders: Data: 0.14MB + Index: 0.05MB + Engine InnoDB
+8vd_wcfm_marketplace_orders_meta: Data: 0.44MB + Index: 0.00MB + Engine InnoDB
+8vd_wcfm_marketplace_product_multivendor: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+8vd_wcfm_marketplace_refund_request: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+8vd_wcfm_marketplace_refund_request_meta: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+8vd_wcfm_marketplace_reverse_withdrawal: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+8vd_wcfm_marketplace_reverse_withdrawal_meta: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+8vd_wcfm_marketplace_reviews: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+8vd_wcfm_marketplace_reviews_response: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+8vd_wcfm_marketplace_reviews_response_meta: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+8vd_wcfm_marketplace_review_rating_meta: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+8vd_wcfm_marketplace_shipping_zone_locations: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+8vd_wcfm_marketplace_shipping_zone_methods: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+8vd_wcfm_marketplace_store_taxonomies: Data: 0.06MB + Index: 0.00MB + Engine InnoDB
+8vd_wcfm_marketplace_vendor_ledger: Data: 0.11MB + Index: 0.00MB + Engine InnoDB
+8vd_wcfm_marketplace_withdraw_request: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+8vd_wcfm_marketplace_withdraw_request_meta: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+8vd_wcfm_membership_subscription: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+8vd_wcfm_messages: Data: 0.09MB + Index: 0.00MB + Engine InnoDB
+8vd_wcfm_messages_modifier: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+8vd_wcfm_messages_stat: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+8vd_wcfm_support: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+8vd_wcfm_support_meta: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+8vd_wcfm_support_response: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+8vd_wcfm_support_response_meta: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+8vd_wcmp_cust_answers: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+8vd_wcmp_cust_questions: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+8vd_wcmp_products_map: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+8vd_wcmp_shipping_zone_locations: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+8vd_wcmp_shipping_zone_methods: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+8vd_wcmp_vendor_orders: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+8vd_wcmp_visitors_stats: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+8vd_wcpdf_invoice_number: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+8vd_wcpdf_packing_slip_number: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+8vd_wcpv_commissions: Data: 0.17MB + Index: 0.01MB + Engine MyISAM
+8vd_wcpv_per_product_shipping_rules: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+8vd_wcuf_upload_sessions: Data: 0.00MB + Index: 0.01MB + Engine MyISAM
+8vd_wc_admin_notes: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+8vd_wc_admin_note_actions: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+8vd_wc_category_lookup: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+8vd_wc_customer_lookup: Data: 0.09MB + Index: 0.06MB + Engine InnoDB
+8vd_wc_download_log: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+8vd_wc_orders: Data: 0.02MB + Index: 0.11MB + Engine InnoDB
+8vd_wc_orders_meta: Data: 0.02MB + Index: 0.03MB + Engine InnoDB
+8vd_wc_order_addresses: Data: 0.02MB + Index: 0.06MB + Engine InnoDB
+8vd_wc_order_coupon_lookup: Data: 0.02MB + Index: 0.03MB + Engine InnoDB
+8vd_wc_order_operational_data: Data: 0.02MB + Index: 0.03MB + Engine InnoDB
+8vd_wc_order_product_lookup: Data: 0.16MB + Index: 0.19MB + Engine InnoDB
+8vd_wc_order_stats: Data: 0.09MB + Index: 0.05MB + Engine InnoDB
+8vd_wc_order_tax_lookup: Data: 0.06MB + Index: 0.03MB + Engine InnoDB
+8vd_wc_product_attributes_lookup: Data: 0.17MB + Index: 0.17MB + Engine InnoDB
+8vd_wc_product_download_directories: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+8vd_wc_product_meta_lookup: Data: 0.26MB + Index: 0.41MB + Engine MyISAM
+8vd_wc_rate_limits: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+8vd_wc_reserved_stock: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+8vd_wc_tax_rate_classes: Data: 0.00MB + Index: 0.01MB + Engine MyISAM
+8vd_wc_webhooks: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+8vd_wfblockediplog: Data: 0.00MB + Index: 0.01MB + Engine MyISAM
+8vd_wfblocks7: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+8vd_wfconfig: Data: 3.72MB + Index: 0.01MB + Engine MyISAM
+8vd_wfcrawlers: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+8vd_wffilechanges: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+8vd_wffilemods: Data: 9.04MB + Index: 0.99MB + Engine MyISAM
+8vd_wfhits: Data: 0.92MB + Index: 0.09MB + Engine MyISAM
+8vd_wfhoover: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+8vd_wfissues: Data: 0.02MB + Index: 0.01MB + Engine MyISAM
+8vd_wfknownfilelist: Data: 6.72MB + Index: 0.30MB + Engine MyISAM
+8vd_wflivetraffichuman: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+8vd_wflocs: Data: 0.01MB + Index: 0.00MB + Engine MyISAM
+8vd_wflogins: Data: 0.35MB + Index: 0.07MB + Engine MyISAM
+8vd_wfls_2fa_secrets: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+8vd_wfls_role_counts: Data: 0.00MB + Index: 0.00MB + Engine MEMORY
+8vd_wfls_settings: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+8vd_wfnotifications: Data: 0.01MB + Index: 0.00MB + Engine MyISAM
+8vd_wfpendingissues: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+8vd_wfpklist_template_data: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+8vd_wfreversecache: Data: 0.05MB + Index: 0.01MB + Engine MyISAM
+8vd_wfsecurityevents: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+8vd_wfsnipcache: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+8vd_wfstatus: Data: 0.40MB + Index: 0.16MB + Engine MyISAM
+8vd_wftrafficrates: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+8vd_wfwaffailures: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+8vd_wpfm_backup: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+8vd_wpforms_entries: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+8vd_wpforms_entry_fields: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+8vd_wpforms_entry_meta: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+8vd_wpf_filters: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+8vd_wpf_meta_keys: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+8vd_wpf_meta_values: Data: 0.02MB + Index: 0.03MB + Engine InnoDB
+8vd_wpf_meta_values_bk: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+8vd_wps_hit: Data: 0.02MB + Index: 0.06MB + Engine MyISAM
+8vd_wps_index: Data: 17.09MB + Index: 27.17MB + Engine MyISAM
+8vd_wps_key: Data: 0.18MB + Index: 0.25MB + Engine MyISAM
+8vd_wps_object_term: Data: 3.44MB + Index: 5.28MB + Engine MyISAM
+8vd_wps_object_type: Data: 0.00MB + Index: 0.01MB + Engine MyISAM
+8vd_wps_query: Data: 0.00MB + Index: 0.01MB + Engine MyISAM
+8vd_wps_uri: Data: 0.02MB + Index: 0.02MB + Engine MyISAM
+8vd_wps_user_agent: Data: 0.01MB + Index: 0.00MB + Engine MyISAM
+8vd_yith_payouts: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+8vd_yith_payout_item: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+8vd_yoast_indexable: Data: 0.02MB + Index: 0.09MB + Engine InnoDB
+8vd_yoast_indexable_hierarchy: Data: 0.02MB + Index: 0.05MB + Engine InnoDB
+8vd_yoast_migrations: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+8vd_yoast_primary_term: Data: 0.02MB + Index: 0.03MB + Engine InnoDB
+8vd_yoast_seo_links: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+8vd_yoast_seo_meta: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+staging_8vd_actionscheduler_actions: Data: 0.08MB + Index: 0.13MB + Engine InnoDB
+staging_8vd_actionscheduler_claims: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+staging_8vd_actionscheduler_groups: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+staging_8vd_actionscheduler_logs: Data: 0.19MB + Index: 0.17MB + Engine InnoDB
+staging_8vd_berocket_termmeta: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+staging_8vd_commentmeta: Data: 0.02MB + Index: 0.02MB + Engine MyISAM
+staging_8vd_comments: Data: 0.53MB + Index: 0.19MB + Engine MyISAM
+staging_8vd_dokan_advertised_products: Data: 0.02MB + Index: 0.08MB + Engine InnoDB
+staging_8vd_dokan_announcement: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+staging_8vd_dokan_follow_store_followers: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+staging_8vd_dokan_orders: Data: 0.02MB + Index: 0.03MB + Engine InnoDB
+staging_8vd_dokan_refund: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+staging_8vd_dokan_reverse_withdrawal: Data: 0.02MB + Index: 0.08MB + Engine InnoDB
+staging_8vd_dokan_shipping_tracking: Data: 0.02MB + Index: 0.03MB + Engine InnoDB
+staging_8vd_dokan_shipping_zone_locations: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+staging_8vd_dokan_shipping_zone_methods: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+staging_8vd_dokan_vendor_balance: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+staging_8vd_dokan_withdraw: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+staging_8vd_e_events: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+staging_8vd_e_submissions: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+staging_8vd_e_submissions_actions_log: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+staging_8vd_e_submissions_values: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+staging_8vd_failed_jobs: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+staging_8vd_gf_addon_feed: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+staging_8vd_gf_draft_submissions: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+staging_8vd_gf_entry: Data: 0.05MB + Index: 0.03MB + Engine InnoDB
+staging_8vd_gf_entry_meta: Data: 0.11MB + Index: 0.09MB + Engine InnoDB
+staging_8vd_gf_entry_notes: Data: 0.05MB + Index: 0.03MB + Engine InnoDB
+staging_8vd_gf_form: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+staging_8vd_gf_form_meta: Data: 0.06MB + Index: 0.00MB + Engine InnoDB
+staging_8vd_gf_form_revisions: Data: 0.02MB + Index: 0.03MB + Engine InnoDB
+staging_8vd_gf_form_view: Data: 0.09MB + Index: 0.09MB + Engine InnoDB
+staging_8vd_gf_rest_api_keys: Data: 0.02MB + Index: 0.03MB + Engine InnoDB
+staging_8vd_jet_post_types: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+staging_8vd_jet_reviews: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+staging_8vd_jet_review_comments: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+staging_8vd_jet_review_guests: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+staging_8vd_jet_review_meta: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+staging_8vd_jet_review_types: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+staging_8vd_jet_taxonomies: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+staging_8vd_layerslider: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+staging_8vd_layerslider_revisions: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+staging_8vd_links: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+staging_8vd_mailchimp_carts: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+staging_8vd_mailchimp_jobs: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+staging_8vd_nextend2_image_storage: Data: 0.01MB + Index: 0.01MB + Engine MyISAM
+staging_8vd_nextend2_section_storage: Data: 0.05MB + Index: 0.01MB + Engine MyISAM
+staging_8vd_nextend2_smartslider3_generators: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+staging_8vd_nextend2_smartslider3_sliders: Data: 0.33MB + Index: 0.00MB + Engine MyISAM
+staging_8vd_nextend2_smartslider3_sliders_xref: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+staging_8vd_nextend2_smartslider3_slides: Data: 0.07MB + Index: 0.01MB + Engine MyISAM
+staging_8vd_nfd_data_event_queue: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+staging_8vd_ninja_table_items: Data: 0.01MB + Index: 0.00MB + Engine MyISAM
+staging_8vd_options: Data: 21.99MB + Index: 0.55MB + Engine MyISAM
+staging_8vd_postmeta: Data: 15.11MB + Index: 4.38MB + Engine MyISAM
+staging_8vd_posts: Data: 4.03MB + Index: 0.67MB + Engine MyISAM
+staging_8vd_pv_commission: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+staging_8vd_queue: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+staging_8vd_redirection_404: Data: 0.02MB + Index: 0.05MB + Engine InnoDB
+staging_8vd_redirection_groups: Data: 0.02MB + Index: 0.03MB + Engine InnoDB
+staging_8vd_redirection_items: Data: 0.02MB + Index: 0.09MB + Engine InnoDB
+staging_8vd_redirection_logs: Data: 0.02MB + Index: 0.05MB + Engine InnoDB
+staging_8vd_revslider_css: Data: 0.09MB + Index: 0.01MB + Engine MyISAM
+staging_8vd_revslider_css_bkp: Data: 0.09MB + Index: 0.00MB + Engine MyISAM
+staging_8vd_revslider_layer_animations: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+staging_8vd_revslider_layer_animations_bkp: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+staging_8vd_revslider_navigations: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+staging_8vd_revslider_navigations_bkp: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+staging_8vd_revslider_sliders: Data: 0.01MB + Index: 0.00MB + Engine MyISAM
+staging_8vd_revslider_sliders_bkp: Data: 0.01MB + Index: 0.00MB + Engine MyISAM
+staging_8vd_revslider_slides: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+staging_8vd_revslider_slides_bkp: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+staging_8vd_revslider_static_slides: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+staging_8vd_revslider_static_slides_bkp: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+staging_8vd_rg_authorizenet: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+staging_8vd_rg_authorizenet_transaction: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+staging_8vd_rg_form: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+staging_8vd_rg_form_meta: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+staging_8vd_rg_form_view: Data: 0.01MB + Index: 0.01MB + Engine MyISAM
+staging_8vd_rg_incomplete_submissions: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+staging_8vd_rg_lead: Data: 0.01MB + Index: 0.00MB + Engine MyISAM
+staging_8vd_rg_lead_detail: Data: 0.03MB + Index: 0.03MB + Engine MyISAM
+staging_8vd_rg_lead_detail_long: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+staging_8vd_rg_lead_meta: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+staging_8vd_rg_lead_notes: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+staging_8vd_swpm_membership_meta_tbl: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+staging_8vd_swpm_membership_tbl: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+staging_8vd_swpm_members_tbl: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+staging_8vd_swpm_payments_tbl: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+staging_8vd_termmeta: Data: 0.07MB + Index: 0.04MB + Engine MyISAM
+staging_8vd_terms: Data: 0.03MB + Index: 0.06MB + Engine MyISAM
+staging_8vd_term_relationships: Data: 0.13MB + Index: 0.26MB + Engine MyISAM
+staging_8vd_term_taxonomy: Data: 0.04MB + Index: 0.04MB + Engine MyISAM
+staging_8vd_tm_taskmeta: Data: 0.02MB + Index: 0.03MB + Engine InnoDB
+staging_8vd_tm_tasks: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+staging_8vd_usermeta: Data: 0.86MB + Index: 0.33MB + Engine MyISAM
+staging_8vd_users: Data: 0.06MB + Index: 0.05MB + Engine MyISAM
+staging_8vd_wcfm_daily_analysis: Data: 7.52MB + Index: 7.52MB + Engine InnoDB
+staging_8vd_wcfm_detailed_analysis: Data: 20.55MB + Index: 0.00MB + Engine InnoDB
+staging_8vd_wcfm_enquiries: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+staging_8vd_wcfm_enquiries_meta: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+staging_8vd_wcfm_enquiries_response: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+staging_8vd_wcfm_enquiries_response_meta: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+staging_8vd_wcfm_fbc_chat_rows: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+staging_8vd_wcfm_fbc_chat_sessions: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+staging_8vd_wcfm_fbc_chat_visitors: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+staging_8vd_wcfm_fbc_offline_messages: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+staging_8vd_wcfm_following_followers: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+staging_8vd_wcfm_marketplace_orders: Data: 0.14MB + Index: 0.05MB + Engine InnoDB
+staging_8vd_wcfm_marketplace_orders_meta: Data: 0.44MB + Index: 0.00MB + Engine InnoDB
+staging_8vd_wcfm_marketplace_product_multivendor: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+staging_8vd_wcfm_marketplace_refund_request: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+staging_8vd_wcfm_marketplace_refund_request_meta: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+staging_8vd_wcfm_marketplace_reverse_withdrawal: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+staging_8vd_wcfm_marketplace_reverse_withdrawal_meta: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+staging_8vd_wcfm_marketplace_reviews: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+staging_8vd_wcfm_marketplace_reviews_response: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+staging_8vd_wcfm_marketplace_reviews_response_meta: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+staging_8vd_wcfm_marketplace_review_rating_meta: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+staging_8vd_wcfm_marketplace_shipping_zone_locations: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+staging_8vd_wcfm_marketplace_shipping_zone_methods: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+staging_8vd_wcfm_marketplace_store_taxonomies: Data: 0.06MB + Index: 0.00MB + Engine InnoDB
+staging_8vd_wcfm_marketplace_vendor_ledger: Data: 0.11MB + Index: 0.00MB + Engine InnoDB
+staging_8vd_wcfm_marketplace_withdraw_request: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+staging_8vd_wcfm_marketplace_withdraw_request_meta: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+staging_8vd_wcfm_membership_subscription: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+staging_8vd_wcfm_messages: Data: 0.09MB + Index: 0.00MB + Engine InnoDB
+staging_8vd_wcfm_messages_modifier: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+staging_8vd_wcfm_messages_stat: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+staging_8vd_wcfm_support: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+staging_8vd_wcfm_support_meta: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+staging_8vd_wcfm_support_response: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+staging_8vd_wcfm_support_response_meta: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+staging_8vd_wcmp_cust_answers: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+staging_8vd_wcmp_cust_questions: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+staging_8vd_wcmp_products_map: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+staging_8vd_wcmp_shipping_zone_locations: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+staging_8vd_wcmp_shipping_zone_methods: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+staging_8vd_wcmp_vendor_orders: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+staging_8vd_wcmp_visitors_stats: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+staging_8vd_wcpdf_invoice_number: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+staging_8vd_wcpdf_packing_slip_number: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+staging_8vd_wcpv_commissions: Data: 0.12MB + Index: 0.01MB + Engine MyISAM
+staging_8vd_wcpv_per_product_shipping_rules: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+staging_8vd_wcuf_upload_sessions: Data: 0.00MB + Index: 0.01MB + Engine MyISAM
+staging_8vd_wcv_feedback: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+staging_8vd_wcv_product_report: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+staging_8vd_wc_admin_notes: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+staging_8vd_wc_admin_note_actions: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+staging_8vd_wc_category_lookup: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+staging_8vd_wc_customer_lookup: Data: 0.08MB + Index: 0.06MB + Engine InnoDB
+staging_8vd_wc_download_log: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+staging_8vd_wc_orders: Data: 0.02MB + Index: 0.11MB + Engine InnoDB
+staging_8vd_wc_orders_meta: Data: 0.02MB + Index: 0.03MB + Engine InnoDB
+staging_8vd_wc_order_addresses: Data: 0.02MB + Index: 0.06MB + Engine InnoDB
+staging_8vd_wc_order_coupon_lookup: Data: 0.02MB + Index: 0.03MB + Engine InnoDB
+staging_8vd_wc_order_operational_data: Data: 0.02MB + Index: 0.03MB + Engine InnoDB
+staging_8vd_wc_order_product_lookup: Data: 0.13MB + Index: 0.16MB + Engine InnoDB
+staging_8vd_wc_order_stats: Data: 0.08MB + Index: 0.05MB + Engine InnoDB
+staging_8vd_wc_order_tax_lookup: Data: 0.05MB + Index: 0.03MB + Engine InnoDB
+staging_8vd_wc_product_attributes_lookup: Data: 0.14MB + Index: 0.19MB + Engine InnoDB
+staging_8vd_wc_product_download_directories: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+staging_8vd_wc_product_meta_lookup: Data: 0.19MB + Index: 0.23MB + Engine MyISAM
+staging_8vd_wc_rate_limits: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+staging_8vd_wc_reserved_stock: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+staging_8vd_wc_tax_rate_classes: Data: 0.00MB + Index: 0.01MB + Engine MyISAM
+staging_8vd_wc_webhooks: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+staging_8vd_wfblockediplog: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+staging_8vd_wfblocks7: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+staging_8vd_wfconfig: Data: 4.72MB + Index: 0.02MB + Engine MyISAM
+staging_8vd_wfcrawlers: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+staging_8vd_wffilechanges: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+staging_8vd_wffilemods: Data: 8.27MB + Index: 0.87MB + Engine MyISAM
+staging_8vd_wfhits: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+staging_8vd_wfhoover: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+staging_8vd_wfissues: Data: 0.05MB + Index: 0.01MB + Engine MyISAM
+staging_8vd_wfknownfilelist: Data: 9.77MB + Index: 0.41MB + Engine MyISAM
+staging_8vd_wflivetraffichuman: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+staging_8vd_wflocs: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+staging_8vd_wflogins: Data: 0.34MB + Index: 0.07MB + Engine MyISAM
+staging_8vd_wfls_2fa_secrets: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+staging_8vd_wfls_role_counts: Data: 0.00MB + Index: 0.00MB + Engine MEMORY
+staging_8vd_wfls_settings: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+staging_8vd_wfnotifications: Data: 0.02MB + Index: 0.00MB + Engine MyISAM
+staging_8vd_wfpendingissues: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+staging_8vd_wfpklist_template_data: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+staging_8vd_wfreversecache: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+staging_8vd_wfsecurityevents: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+staging_8vd_wfsnipcache: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+staging_8vd_wfstatus: Data: 0.30MB + Index: 0.09MB + Engine MyISAM
+staging_8vd_wftrafficrates: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+staging_8vd_wfwaffailures: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+staging_8vd_woocommerce_api_keys: Data: 0.00MB + Index: 0.01MB + Engine MyISAM
+staging_8vd_woocommerce_attribute_taxonomies: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+staging_8vd_woocommerce_downloadable_product_permissions: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+staging_8vd_woocommerce_log: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+staging_8vd_woocommerce_order_itemmeta: Data: 0.79MB + Index: 0.61MB + Engine MyISAM
+staging_8vd_woocommerce_order_items: Data: 0.12MB + Index: 0.05MB + Engine MyISAM
+staging_8vd_woocommerce_payment_tokenmeta: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+staging_8vd_woocommerce_payment_tokens: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+staging_8vd_woocommerce_sessions: Data: 0.02MB + Index: 0.00MB + Engine MyISAM
+staging_8vd_woocommerce_shipping_zones: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+staging_8vd_woocommerce_shipping_zone_locations: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+staging_8vd_woocommerce_shipping_zone_methods: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+staging_8vd_woocommerce_tax_rates: Data: 0.00MB + Index: 0.01MB + Engine MyISAM
+staging_8vd_woocommerce_tax_rate_locations: Data: 0.00MB + Index: 0.01MB + Engine MyISAM
+staging_8vd_wpfm_backup: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+staging_8vd_wpforms_entries: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+staging_8vd_wpforms_entry_fields: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+staging_8vd_wpforms_entry_meta: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+staging_8vd_wpforms_payments: Data: 0.02MB + Index: 0.14MB + Engine InnoDB
+staging_8vd_wpforms_payment_meta: Data: 0.02MB + Index: 0.05MB + Engine InnoDB
+staging_8vd_wpforms_tasks_meta: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+staging_8vd_wpf_filters: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+staging_8vd_wpf_meta_keys: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+staging_8vd_wpf_meta_values: Data: 0.02MB + Index: 0.03MB + Engine InnoDB
+staging_8vd_wpf_meta_values_bk: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+staging_8vd_wps_hit: Data: 0.01MB + Index: 0.05MB + Engine MyISAM
+staging_8vd_wps_index: Data: 12.42MB + Index: 19.67MB + Engine MyISAM
+staging_8vd_wps_key: Data: 0.14MB + Index: 0.20MB + Engine MyISAM
+staging_8vd_wps_object_term: Data: 2.78MB + Index: 4.37MB + Engine MyISAM
+staging_8vd_wps_object_type: Data: 0.00MB + Index: 0.01MB + Engine MyISAM
+staging_8vd_wps_query: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+staging_8vd_wps_uri: Data: 0.02MB + Index: 0.01MB + Engine MyISAM
+staging_8vd_wps_user_agent: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+staging_8vd_yith_payouts: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+staging_8vd_yith_payout_item: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+staging_8vd_yith_shippo_shipping_parcel_boxes: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+staging_8vd_yith_shippo_shipping_rulemeta: Data: 0.02MB + Index: 0.03MB + Engine InnoDB
+staging_8vd_yith_shippo_shipping_rules: Data: 0.02MB + Index: 0.03MB + Engine InnoDB
+staging_8vd_yith_shippo_shipping_tracking: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+staging_8vd_yoast_indexable: Data: 0.02MB + Index: 0.09MB + Engine InnoDB
+staging_8vd_yoast_indexable_hierarchy: Data: 0.02MB + Index: 0.05MB + Engine InnoDB
+staging_8vd_yoast_migrations: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+staging_8vd_yoast_primary_term: Data: 0.02MB + Index: 0.03MB + Engine InnoDB
+staging_8vd_yoast_seo_links: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+staging_8vd_yoast_seo_meta: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+
+### Post Type Counts ###
+
+acf-field: 7
+acf-field-group: 2
+attachment: 3224
+br_labels: 7
+cuar_log_event: 1
+custom_css: 2
+dt_gallery: 1
+dt_logos: 1
+dt_portfolio: 21
+elementor_library: 16
+filter-field: 15
+filter-set: 2
+nav_menu_item: 11
+ninja-table: 24
+oembed_cache: 1
+page: 13
+post: 19
+product: 292
+product_variation: 2356
+revision: 671
+shop_order: 519
+shop_order_refund: 4
+um_directory: 1
+um_form: 3
+wc_custom_statuses: 1
+wp_font_face: 33
+wp_font_family: 12
+wp_global_styles: 1
+wp_navigation: 1
+wpforms: 1
+
+### Security ###
+
+Secure connection (HTTPS): ✔
+Hide errors from visitors: ✔
+
+### Active Plugins (40) ###
+
+All-in-One WP Migration With Import: by ServMask – 6.77
+Advanced Custom Fields PRO: by WP Engine – 6.3.3
+WooCommerce Advanced Product Labels: by BeRocket – 1.2.5.3
+The Bluehost Plugin: by Bluehost – 3.13.3
+Disable Admin Notices Individually: by Creative Motion  – 1.3.5
+The7 Elements: by Dream-Theme – 2.7.2
+Elementor: by Elementor.com – 3.23.3
+Essential Addons for Elementor - Pro: by WPDeveloper – 5.8.1
+Essential Addons for Elementor: by WPDeveloper – 5.9.27
+Filter Everything PRO: by Andrii Stepasiuk – 1.7.0
+Filter Everything — WooCoomerce Product & WordPress Filter: by Andrii Stepasiuk – 1.8.5
+Gravity PDF: by Blue Liquid Designs – 6.11.1
+Gravity Forms: by Gravity Forms – 2.8.1
+Gravity Forms MailChimp Add-On: by rocketgenius – 3.5
+Health Check & Troubleshooting: by The WordPress.org community – 1.7.1
+JetBlocks For Elementor: by Crocoblock – 1.3.9
+JetSearch: by Crocoblock – 3.4.3
+Mailchimp for WooCommerce: by Mailchimp – 4.2.1
+Ninja Tables: by WPManageNinja LLC – 5.0.12
+Page Links To: by Mark Jaquith – 3.3.7
+Perfect Brands WooCommerce: by QuadLayers – 3.4.1
+Printful Integration for WooCommerce: by Printful – 2.2.10
+Printify Shipping Method: by Printify – 2.12
+PRO Elements: by PROElements.org – 3.23.1
+Product Variations Swatches for WooCommerce: by VillaTheme – 1.1.4
+Smart Slider 3: by Nextend – 3.5.1.23
+Ultimate Addons for Elementor: by Brainstorm Force – 1.36.35
+Change Product Author for WooCommerce: by Wil Brown @DeveloperWil – 1.0.4
+Checkout Field Editor for WooCommerce: by ThemeHigh – 2.0.3
+Woocommerce Product Page Social Share: by Sajjad Hossain Sagor – 2.0.2
+WooCommerce.com Update Manager: by Automattic – 1.0.3
+WooCommerce Legacy REST API: by WooCommerce – 1.0.4
+WooCommerce PayPal Payments: by WooCommerce – 2.8.2
+PDF Invoices & Packing Slips for WooCommerce: by WP Overnight – 3.8.6
+WooCommerce Product Search: by itthinx – 4.2.1
+WooCommerce Product Vendors: by WooCommerce – 2.2.5
+WooCommerce Shipping & Tax: by WooCommerce – 2.7.0
+WooCommerce: by Automattic – 9.1.4
+Wordfence Security: by Wordfence – 7.11.7
+WP Rollback: by WP Rollback – 2.0.7
+
+### Inactive Plugins (0) ###
+
+
+### Dropin Plugins () ###
+
+object-cache.php: APCu Object Cache Drop-in
+
+### Must Use Plugins (3) ###
+
+Endurance Page Cache: by Mike Hansen – 2.2.1
+Health Check Troubleshooting Mode: by  – 1.9.1
+SSO: by Garth Mortensen
+Mike Hansen – 0.4
+
+
+### Settings ###
+
+API Enabled: ✔
+Force SSL: –
+Currency: USD ($)
+Currency Position: left
+Thousand Separator: ,
+Decimal Separator: .
+Number of Decimals: 2
+Taxonomies: Product Types: external (external)
+grouped (grouped)
+simple (simple)
+variable (variable)
+
+Taxonomies: Product Visibility: exclude-from-catalog (exclude-from-catalog)
+exclude-from-search (exclude-from-search)
+featured (featured)
+outofstock (outofstock)
+rated-1 (rated-1)
+rated-2 (rated-2)
+rated-3 (rated-3)
+rated-4 (rated-4)
+rated-5 (rated-5)
+
+Connected to WooCommerce.com: ✔
+Enforce Approved Product Download Directories: –
+HPOS feature enabled: –
+Order datastore: WC_Order_Data_Store_CPT
+HPOS data sync enabled: –
+
+### Logging ###
+
+Enabled: ✔
+Handler: Automattic\WooCommerce\Internal\Admin\Logging\LogHandlerFileV2
+Retention period: 30 days
+Level threshold: –
+Log directory size: 2 MB
+
+### WC Pages ###
+
+Shop base: #34118 - /shop/
+Cart: #6 - /cart/ -  Contains the [woocommerce_cart] shortcode
+Checkout: #7 - /checkout/ -  Contains the [woocommerce_checkout] shortcode
+My account: #30638 - /dashboard/
+Terms and conditions: ❌ Page not set
+
+### Theme ###
+
+Name: The7
+Version: 11.14.2
+Author URL: https://dream-theme.com/
+Child Theme: ❌ – If you are modifying WooCommerce on a parent theme that you did not build personally we recommend using a child theme. See: How to create a child theme
+WooCommerce Support: ✔
+
+### Templates ###
+
+Overrides: dt-the7/woocommerce/cart/cart.php
+dt-the7/woocommerce/cart/cross-sells.php
+dt-the7/woocommerce/cart/mini-cart.php
+dt-the7/woocommerce/checkout/form-billing.php
+dt-the7/woocommerce/checkout/form-checkout.php
+dt-the7/woocommerce/checkout/form-coupon.php
+dt-the7/woocommerce/checkout/form-login.php
+dt-the7/woocommerce/checkout/form-shipping.php
+dt-the7/woocommerce/checkout/review-order.php
+dt-the7/woocommerce/checkout/thankyou.php
+dt-the7/woocommerce/content-product.php
+dt-the7/woocommerce/content-widget-product.php
+dt-the7/woocommerce/content-widget-reviews.php
+dt-the7/woocommerce/global/breadcrumb.php
+dt-the7/woocommerce/global/form-login.php
+dt-the7/woocommerce/global/quantity-input.php
+dt-the7/woocommerce/loop/loop-end.php
+dt-the7/woocommerce/loop/loop-start.php
+dt-the7/woocommerce/loop/pagination.php
+dt-the7/woocommerce/myaccount/form-login.php
+dt-the7/woocommerce/notices/error.php
+dt-the7/woocommerce/notices/notice.php
+dt-the7/woocommerce/notices/success.php
+dt-the7/woocommerce/order/order-details-customer.php
+dt-the7/woocommerce/order/order-details.php
+dt-the7/woocommerce/single-product/meta.php
+dt-the7/woocommerce/single-product/price.php
+dt-the7/woocommerce/single-product/related.php
+dt-the7/woocommerce/single-product/up-sells.php
+dt-the7/woocommerce/content-product_cat.php
+
+
+### WooCommerce PayPal Payments ###
+
+Onboarded: ✔
+Shop country code: US
+WooCommerce currency supported: ✔
+Advanced Card Processing available in country: ✔
+Pay Later messaging available in country: ✔
+Webhook status: –
+PayPal Vault enabled: –
+ACDC Vault enabled: –
+Logging enabled: –
+Reference Transactions: –
+Used PayPal Checkout plugin: ✔
+Subscriptions Mode: Disabled
+
+### Admin ###
+
+Enabled Features: activity-panels
+analytics
+product-block-editor
+coupons
+core-profiler
+customize-store
+customer-effort-score-tracks
+import-products-task
+experimental-fashion-sample-products
+shipping-smart-defaults
+shipping-setting-tour
+homescreen
+marketing
+mobile-app-banner
+navigation
+onboarding
+onboarding-tasks
+product-custom-fields
+remote-inbox-notifications
+remote-free-extensions
+payment-gateway-suggestions
+shipping-label-banner
+subscriptions
+store-alerts
+transient-notices
+woo-mobile-welcome
+wc-pay-promotion
+wc-pay-welcome-page
+launch-your-store
+
+Disabled Features: experimental-blocks
+minified-js
+pattern-toolkit-full-composability
+product-pre-publish-modal
+printful
+settings
+async-product-editor-category-field
+product-editor-template-system
+
+Daily Cron: ✔ Next scheduled: 2024-07-30 18:09:45 -07:00
+Options: ✔
+Notes: 21
+Onboarding: completed
+
+### Action Scheduler ###
+
+Complete: 4,627
+Oldest: 2024-06-28 16:28:23 -0700
+Newest: 2024-07-29 13:14:26 -0700
+
+Pending: 5
+Oldest: 2024-07-29 14:44:05 -0700
+Newest: 2024-08-02 17:44:04 -0700
+
+Failed: 57
+Oldest: 2022-01-10 11:39:50 -0800
+Newest: 2024-07-24 15:03:36 -0700
+
+Canceled: 9
+Oldest: 2024-07-17 19:12:02 -0700
+Newest: 2024-07-24 14:28:12 -0700
+
+
+### Status report information ###
+
+Generated at: 2024-07-29 14:45:08 -07:00
+`
